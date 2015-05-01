@@ -1,0 +1,15 @@
+h1. Introduction
+
+This is a simple tool for generating WebSphere deployment.xml files for PARENT_FIRST and PARENT_LAST.
+
+For more information, check out my blog post at: *TODO*
+
+h2. Warnings
+
+* This assumes deployment.xml only includes web applications and/or ear configuration
+  If this assumption is wrong, please create an issue!
+* Backup first!
+
+h2. License
+
+MIT
