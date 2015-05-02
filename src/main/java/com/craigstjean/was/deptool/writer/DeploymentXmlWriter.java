@@ -64,6 +64,6 @@ public class DeploymentXmlWriter {
     }
 
     public Long getGenTime() {
-        return genTime;
+        return genTime++;
     }
 }
