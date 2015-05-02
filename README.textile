@@ -2,7 +2,7 @@ h1. Introduction
 
 This is a simple tool for generating WebSphere deployment.xml files for PARENT_FIRST and PARENT_LAST.
 
-For more information, check out my blog post at: *TODO*
+For more information, check out my blog post at: http://www.craigstjean.com/2015/05/configuring-the-classloader-for-your-websphere-application-2/
 
 h2. Warnings
 
@@ -10,6 +10,10 @@ h2. Warnings
   If this assumption is wrong, please create an issue!
 * Backup first!
 
-h2. License
+h1. Download
+
+Download at https://raw.githubusercontent.com/craigstjean/WebSphere-Deployment-Xml-Tool/master/WebSphere-Deployment-Tool-1.0.jar
+
+h1. License
 
 MIT
