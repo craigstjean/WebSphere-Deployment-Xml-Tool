@@ -18,8 +18,12 @@ public class DeploymentXmlReader {
     public DeploymentXmlReader(File metaInfFile) {
         String deploymentXmlPath = metaInfFile.getAbsolutePath();
         deploymentXmlPath += File.separator;
-        deploymentXmlPath += "ibmconfig\\cells\\defaultCell\\applications\\defaultApp\\deployments\\defaultApp\\".replaceAll("\\\\", File.separator);
+        deploymentXmlPath += "ibmconfig\\cells\\defaultCell\\applications\\defaultApp\\deployments\\defaultApp\\";
         deploymentXmlPath += "deployment.xml";
+
+        if (!"\\".equals(File.separator)) {
+            deploymentXmlPath = deploymentXmlPath.replaceAll("\\\\", File.separator);
+        }
 
         deploymentXmlFile = new File(deploymentXmlPath);
         invalidate();
