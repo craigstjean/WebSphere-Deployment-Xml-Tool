@@ -5,7 +5,7 @@ mainClassName = 'com.craigstjean.was.deptool.WebSphereDeploymentTool'
 
 sourceCompatibility = 1.6
 targetCompatibility = 1.6
-version = '1.0.1'
+version = '1.0.2'
 
 task uberjar(dependsOn: build, type: Jar) {
     from files(sourceSets.main.output.classesDir)
